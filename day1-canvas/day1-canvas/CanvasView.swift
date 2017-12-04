@@ -10,11 +10,11 @@ import UIKit
 
 class CanvasView: UIView {
     
-    var lineColor:UIColor!
-    var lineWidth:CGFloat!
-    var path:UIBezierPath!
-    var touchPoint:CGPoint!
-    var startingPoint:CGPoint!
+    var lineColor: UIColor!
+    var lineWidth: CGFloat!
+    var path: UIBezierPath!
+    var touchPoint: CGPoint!
+    var startingPoint: CGPoint!
     
     override func layoutSubviews() {
         self.clipsToBounds = true
