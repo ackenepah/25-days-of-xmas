@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var canvasView: CanvasView!
     @IBOutlet weak var digitLabel: UILabel!
     
+    var requests = [VNRequest]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
