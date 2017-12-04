@@ -16,7 +16,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
-
     @IBAction func clearCanvas(_ sender: UIButton) {
         canvasView.clearCanvas()
     }

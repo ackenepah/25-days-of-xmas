@@ -19,26 +19,44 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4d9-Ta-xdc" customClass="CanvasView" customModule="day1_canvas" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                                <rect key="frame" x="0.0" y="292" width="375" height="375"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPt-Bj-pGN">
-                                <rect key="frame" x="169" y="625" width="36" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3OS-cQ-Dl4">
+                                <rect key="frame" x="16" y="255" width="36" height="30"/>
                                 <state key="normal" title="Clear"/>
                                 <connections>
-                                    <action selector="clearCanvas:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ESD-sP-nuv"/>
+                                    <action selector="clearCanvas:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VoQ-Us-jTr"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9V-Tv-Xfb">
+                                <rect key="frame" x="287" y="255" width="72" height="30"/>
+                                <state key="normal" title="Recognize"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zP7-Qa-J9t">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="175" id="7tI-eP-k1V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="4d9-Ta-xdc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6zz-8X-346"/>
-                            <constraint firstItem="4d9-Ta-xdc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Dta-HS-63Z"/>
-                            <constraint firstItem="4d9-Ta-xdc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-50" id="ShM-3v-o3O"/>
-                            <constraint firstItem="jPt-Bj-pGN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="169" id="aU7-a8-sfb"/>
-                            <constraint firstItem="4d9-Ta-xdc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fZV-Ja-PkX"/>
-                            <constraint firstItem="jPt-Bj-pGN" firstAttribute="top" secondItem="4d9-Ta-xdc" secondAttribute="bottom" constant="8" id="gnY-Sa-Qri"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jPt-Bj-pGN" secondAttribute="trailing" constant="170" id="jd2-kd-5gg"/>
+                            <constraint firstItem="3OS-cQ-Dl4" firstAttribute="top" secondItem="zP7-Qa-J9t" secondAttribute="bottom" constant="80" id="0FT-ub-mcJ"/>
+                            <constraint firstItem="4d9-Ta-xdc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2vp-7g-C5k"/>
+                            <constraint firstItem="4d9-Ta-xdc" firstAttribute="top" secondItem="3OS-cQ-Dl4" secondAttribute="bottom" constant="7" id="DvQ-aa-MZc"/>
+                            <constraint firstItem="4d9-Ta-xdc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Fsh-Qf-J8i"/>
+                            <constraint firstItem="zP7-Qa-J9t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ir0-I6-UGW"/>
+                            <constraint firstItem="zP7-Qa-J9t" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Mqu-HW-r0Y"/>
+                            <constraint firstItem="3OS-cQ-Dl4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="QKa-Pf-tCX"/>
+                            <constraint firstItem="4d9-Ta-xdc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="WBq-hS-G06"/>
+                            <constraint firstItem="zP7-Qa-J9t" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bJ7-Ti-Yo9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d9V-Tv-Xfb" secondAttribute="trailing" constant="16" id="cmB-Yj-vrt"/>
+                            <constraint firstItem="d9V-Tv-Xfb" firstAttribute="top" secondItem="zP7-Qa-J9t" secondAttribute="bottom" constant="80" id="ibh-C8-4Zh"/>
+                            <constraint firstItem="4d9-Ta-xdc" firstAttribute="top" secondItem="d9V-Tv-Xfb" secondAttribute="bottom" constant="7" id="qAH-Fi-gcv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
