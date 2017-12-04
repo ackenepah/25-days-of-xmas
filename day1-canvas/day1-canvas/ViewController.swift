@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import Vision
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var canvasView: CanvasView!
+    @IBOutlet weak var digitLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +20,9 @@ class ViewController: UIViewController {
     }
     @IBAction func clearCanvas(_ sender: UIButton) {
         canvasView.clearCanvas()
+    }
+    
+    @IBAction func recognizeDigit(_ sender: UIButton) {
     }
 }
 

@@ -32,6 +32,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9V-Tv-Xfb">
                                 <rect key="frame" x="287" y="255" width="72" height="30"/>
                                 <state key="normal" title="Recognize"/>
+                                <connections>
+                                    <action selector="recognizeDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SBy-dK-Gab"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zP7-Qa-J9t">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
@@ -62,6 +65,7 @@
                     </view>
                     <connections>
                         <outlet property="canvasView" destination="4d9-Ta-xdc" id="tpf-EO-woU"/>
+                        <outlet property="digitLabel" destination="zP7-Qa-J9t" id="4pX-gp-Kv8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
