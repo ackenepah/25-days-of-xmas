@@ -13,6 +13,7 @@
 		EF0D9DDF1FD4BC6C00A5A193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0D9DDE1FD4BC6C00A5A193 /* Assets.xcassets */; };
 		EF0D9DE21FD4BC6C00A5A193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0D9DE01FD4BC6C00A5A193 /* LaunchScreen.storyboard */; };
 		EF1EB6A91FD592E400578DFA /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1EB6A81FD592E400578DFA /* CanvasView.swift */; };
+		EF1EB6AB1FD59C0000578DFA /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EF1EB6AA1FD59C0000578DFA /* MNIST.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EF0D9DE11FD4BC6C00A5A193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF0D9DE31FD4BC6C00A5A193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF1EB6A81FD592E400578DFA /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		EF1EB6AA1FD59C0000578DFA /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		EF0D9DD61FD4BC6C00A5A193 /* day1-canvas */ = {
 			isa = PBXGroup;
 			children = (
+				EF1EB6AA1FD59C0000578DFA /* MNIST.mlmodel */,
 				EF0D9DD71FD4BC6C00A5A193 /* AppDelegate.swift */,
 				EF0D9DD91FD4BC6C00A5A193 /* ViewController.swift */,
 				EF0D9DDB1FD4BC6C00A5A193 /* Main.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1EB6AB1FD59C0000578DFA /* MNIST.mlmodel in Sources */,
 				EF0D9DDA1FD4BC6C00A5A193 /* ViewController.swift in Sources */,
 				EF0D9DD81FD4BC6C00A5A193 /* AppDelegate.swift in Sources */,
 				EF1EB6A91FD592E400578DFA /* CanvasView.swift in Sources */,
