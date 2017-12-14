@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF1AD4701FE264C100FD7F2E /* StarsParticles.scnp in Resources */ = {isa = PBXBuildFile; fileRef = EF1AD46E1FE264C100FD7F2E /* StarsParticles.scnp */; };
+		EF1AD4711FE264C100FD7F2E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = EF1AD46F1FE264C100FD7F2E /* star.png */; };
+		EF1AD4731FE265A400FD7F2E /* EarthNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1AD4721FE265A400FD7F2E /* EarthNode.swift */; };
 		EF787BD71FD8D118007B3902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF787BD61FD8D118007B3902 /* AppDelegate.swift */; };
 		EF787BD91FD8D118007B3902 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EF787BD81FD8D118007B3902 /* art.scnassets */; };
 		EF787BDB1FD8D118007B3902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF787BDA1FD8D118007B3902 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF1AD46E1FE264C100FD7F2E /* StarsParticles.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = StarsParticles.scnp; sourceTree = "<group>"; };
+		EF1AD46F1FE264C100FD7F2E /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		EF1AD4721FE265A400FD7F2E /* EarthNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthNode.swift; sourceTree = "<group>"; };
 		EF787BD31FD8D118007B3902 /* day2-3dearth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "day2-3dearth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF787BD61FD8D118007B3902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF787BD81FD8D118007B3902 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -57,12 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				EF787BD61FD8D118007B3902 /* AppDelegate.swift */,
-				EF787BD81FD8D118007B3902 /* art.scnassets */,
 				EF787BDA1FD8D118007B3902 /* ViewController.swift */,
+				EF1AD4721FE265A400FD7F2E /* EarthNode.swift */,
+				EF1AD46E1FE264C100FD7F2E /* StarsParticles.scnp */,
+				EF1AD46F1FE264C100FD7F2E /* star.png */,
 				EF787BDC1FD8D118007B3902 /* Main.storyboard */,
 				EF787BDF1FD8D118007B3902 /* Assets.xcassets */,
 				EF787BE11FD8D118007B3902 /* LaunchScreen.storyboard */,
 				EF787BE41FD8D118007B3902 /* Info.plist */,
+				EF787BD81FD8D118007B3902 /* art.scnassets */,
 			);
 			path = "day2-3dearth";
 			sourceTree = "<group>";
@@ -129,7 +138,9 @@
 				EF787BD91FD8D118007B3902 /* art.scnassets in Resources */,
 				EF787BE31FD8D118007B3902 /* LaunchScreen.storyboard in Resources */,
 				EF787BE01FD8D118007B3902 /* Assets.xcassets in Resources */,
+				EF1AD4701FE264C100FD7F2E /* StarsParticles.scnp in Resources */,
 				EF787BDE1FD8D118007B3902 /* Main.storyboard in Resources */,
+				EF1AD4711FE264C100FD7F2E /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF787BDB1FD8D118007B3902 /* ViewController.swift in Sources */,
+				EF1AD4731FE265A400FD7F2E /* EarthNode.swift in Sources */,
 				EF787BD71FD8D118007B3902 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
